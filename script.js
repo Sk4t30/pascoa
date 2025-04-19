@@ -6,8 +6,8 @@ let movendo = true;
 btnNao.addEventListener('click', () => {
   if (!movendo) return;
 
-  const largura = window.innerWidth - btnNao.offsetWidth;
-  const altura = window.innerHeight - btnNao.offsetHeight;
+  const largura = document.body.clientWidth - btnNao.offsetWidth;
+  const altura = document.body.clientHeight - btnNao.offsetHeight;
   const x = Math.random() * largura;
   const y = Math.random() * altura;
 
