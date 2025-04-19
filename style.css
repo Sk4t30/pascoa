@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom right, #ffe6f0, #fff6d6);
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 30px;
+    background: #fff9f2;
+    border: 3px dashed #ff9eb5;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(255, 182, 193, 0.5);
+    max-width: 600px;
+  }
+  
+  h1 {
+    color: #ff69b4;
+    font-size: 2.5rem;
+  }
+  
+  .texto {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    color: #555;
+  }
+  
+  .botoes {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .botoes button {
+    padding: 10px 25px;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  #btnSim {
+    background-color: #98e898;
+    color: #fff;
+  }
+  
+  #btnNao {
+    background-color: #f77;
+    color: #fff;
+    position: relative; /* Agora ele respeita o fluxo da div */
+  }
+  
